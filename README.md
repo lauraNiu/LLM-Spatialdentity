@@ -21,9 +21,9 @@ The data is organized into two main categories:
 - Format: CSV (.csv)
 - Key Columns:
   - id: Unique identifier for post.
-  - region: Hong Kong or Guangdong.  
-  - date: Date of Post
-  - space type: Type of Place Function
+  - region: 1 for Hong Kong, 0 for Guangdong.  
+  - date: Post Date
+  - space type: Type of Space Function.
   - Spatial Imagery: Score for the Spatial Imagery dimension.
   - Spatial Satisfaction: Score for the Spatial Satisfaction dimension.
   - Spatial Sense of Belonging: Score for the Spatial Sense of Belonging dimension.
