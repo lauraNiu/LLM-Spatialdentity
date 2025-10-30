@@ -41,12 +41,11 @@ The data is organized into two main categories:
 
 ## Repository Structure
 ```
-.
-├── scored\_identity\_data/
-│   └── scored\_spatial\_identity.csv
+├── scored_identity_data/
+│   └── scored_spatial_identity.csv
 │
-├── raw\_attribution\_data/
-│   └── raw\_social\_media\_posts.json
+├── raw_attribution_data/
+│   └── raw_social_media_posts.json
 │
 ├── README.md
 └── LICENSE
