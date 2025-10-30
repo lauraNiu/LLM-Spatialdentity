@@ -45,7 +45,11 @@ The data is organized into two main categories:
 │   └── scored_spatial_identity.csv
 │
 ├── raw_attribution_data/
-│   └── raw_social_media_posts.json
+│   └── Border Space.csv
+│   └── Leisure Space.csv
+│   └── Socio-cultural Space.csv
+│   └── Policy-designated Space.csv
+│   └── Shopping and Consumption Space.csv
 │
 ├── README.md
 └── LICENSE
