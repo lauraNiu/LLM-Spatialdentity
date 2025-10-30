@@ -17,20 +17,21 @@ The data is organized into two main categories:
 
 1. Scored Multidimensional Spatial Identity Data (/scored_identity_data)
 
-- Description: This dataset contains the final output of our model. Each entry represents a user or a text unit and includes scores for various dimensions of spatial identity (e.g., cognitive, affective, behavioral). This data is processed, cleaned, and ready for quantitative analysis.
+- Description: This dataset contains the final output of our model. Each entry represents a text unit and includes scores for various dimensions of spatial identity (e.g., cognitive, affective, behavioral). This data is processed, cleaned, and ready for quantitative analysis.
 - Format: CSV (.csv)
 - Key Columns:
   - id: Unique identifier for post.
-  - date:
-  - space type: 
-  - Spatial Imagery: Score for the first dimension.
-  - Spatial Satisfaction: Score for the second dimension.
-  - Sptial Sense of Belonging: Score for the second dimension.
-  - Spatial Identity: Score for the second dimension.
+  - region: Hong Kong or Guangdong.  
+  - date: Date of Post
+  - space type: Type of Place Function
+  - Spatial Imagery: Score for the Spatial Imagery dimension.
+  - Spatial Satisfaction: Score for the Spatial Satisfaction dimension.
+  - Spatial Sense of Belonging: Score for the Spatial Sense of Belonging dimension.
+  - Spatial Identity: Score for the Spatial Identity.
   
 2. Raw Data for Attribution Analysis Validation(/raw_attribution_data)
 
-- Description: This dataset contains the raw, anonymized social media posts used for the attribution analysis part of our study. This data is intended to provide context and allow for the replication of our qualitative and attribution findings. Please note that to protect privacy, all personally identifiable information has been removed.
+- Description: This dataset contains the raw, anonymized social media posts used for the attribution analysis validation part of our study. This data is intended to provide context and allow for the replication of our qualitative and attribution findings. Please note that to protect privacy, all personally identifiable information has been removed.
 - Format: CSV (.csv)
 - Key Fields:
   - post_id: Unique identifier for the post.
@@ -39,7 +40,7 @@ The data is organized into two main categories:
   - language: 'zh'.
 
 ## Repository Structure
-`
+```
 .
 ├── scored\_identity\_data/
 │   └── scored\_spatial\_identity.csv
@@ -49,6 +50,6 @@ The data is organized into two main categories:
 │
 ├── README.md
 └── LICENSE
-`
+```
 
 
