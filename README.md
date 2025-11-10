@@ -1,4 +1,4 @@
-# Data Repository for "A Large Language Model–Driven Cross-Lingual Framework for Social Media–Based Cross-Boundary Spatial Identity Sensing"
+# Repository for "A Large Language Model–Driven Cross-Lingual Framework for Social Media–Based Cross-Boundary Spatial Identity Sensing"
 
 This repository contains the data for the paper: **A Large Language Model–Driven Cross-Lingual Framework for Social Media–Based Cross-Boundary Spatial Identity Sensing**.
 
